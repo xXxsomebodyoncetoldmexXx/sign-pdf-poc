@@ -33,4 +33,4 @@ def homepage():
 api.add_resource(SignatureService, "/api/signature")
 
 if __name__ == "__main__":
-    app.run(port=7777, debug=True)
+    app.run(port=8888, host="0.0.0.0")
